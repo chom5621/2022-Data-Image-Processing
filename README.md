@@ -1,3 +1,7 @@
 ### 2022-Data-Image-Processing
 
-* MATLAB
+Using MATLAB
+
+* Least squares method
+
+* Polynomial interpolation
