@@ -1,6 +1,6 @@
 ### 2022-Data-Image-Processing
 
-Using MATLAB
+MATLAB
 
 * Least squares method
 
