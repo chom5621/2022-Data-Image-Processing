@@ -1,0 +1,25 @@
+least squares
+
+C=(EE^T)^(-1)Ey
+
+p=ax^2+bx+c
+
+E=[1 ... 1
+    x1 .... xn
+    x1^2 .... xn^2]
+
+--------------------------
+
+polynomial interpolation
+
+1) Vandermonde
+
+n*n matrix = [1 x1 .... x1^(n-1)
+
+                   1 xn .... xn^(n-1)]
+
+2) Lagrange
+
+p(x) = summ_(from j=1 to n) l_j(x) f(xj)
+where l_j(x) = multi_(from j=1 to n, j~=i) (x-xi)/(xj-xi)
+
