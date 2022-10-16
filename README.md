@@ -4,4 +4,4 @@ MATLAB
 
 * Least squares method
 
-* Polynomial interpolation
+* Polynomial interpolation - Vandermonde, Lagrange, Newton
