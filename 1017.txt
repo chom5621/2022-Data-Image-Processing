@@ -1,0 +1,27 @@
+f(x)=x, -pi <= x < pi
+sum(k=1 to inf) 2(-1)^(k+1)/k * sinkx
+-> 불연속일 때 중간을 interpolation함
+-> conditional conv
+
+f(x)=  x   , or
+    =pi-x
+F(x) = cos포함식
+-> 연속이므로 absolute conv, 단 미분가능하지 않음
+
+--------------------------------------------------------------------------------
+
+1.3 Conv Thms for F.S
+If sum(an) conv, then an->0 as n->inf
+SN=sum(n=1 to N)(an) ->0
+|aN|=|SN-SN-1|->0
+
+Thm(Riemann-Lebesgue Lemmma)
+Suppose that f is piecewise cont on [a,b]
+Then lim(k->inf) int(a to b)(f(x)coskx)dx = lim(k->inf) int(a to b)(f(x)sinkx)dx
+
+Consider the case that f is differentiable and f' in L1[a,b]
+i.e. inf(a to b) |f'(x)|dx < inf
+
+Then int(a to b)(f(x)coskx)dx = integration by parts이용
+= int(a to b)(f(x)(sinkx/k)')dx
+= (a to b)(f(x)(sinkx/k) - int(a to b)(f'(x)(sinkx/k))dx -> 0으로 수렴,,
