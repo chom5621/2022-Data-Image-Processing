@@ -10,7 +10,7 @@ F(x) = cos포함식
 
 --------------------------------------------------------------------------------
 
-1.3 Conv Thms for F.S
+1.3 Conv Thms for F.S.
 If sum(an) conv, then an->0 as n->inf
 SN=sum(n=1 to N)(an) ->0
 |aN|=|SN-SN-1|->0
