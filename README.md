@@ -4,7 +4,7 @@ MATLAB
 
 * Least squares method
 
-* Polynomial interpolation - Vandermonde, Lagrange, Newton
+* Polynomial interpolation - Vandermonde, Lagrange
 
 * padding, smoothing 
 
