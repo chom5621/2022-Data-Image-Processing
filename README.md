@@ -6,5 +6,5 @@ MATLAB
 
 * Polynomial interpolation - Vandermonde, Lagrange
 
-* padding, smoothing 
+* Subdivision - padding, smoothing 
 
