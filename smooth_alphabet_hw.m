@@ -23,6 +23,7 @@ mask = [-1, 9, 9, -1]/16;
 for i= 2:n+1
     t_subd(2*i-3) = t1(i);
 end
+
 for i=2:n
     t_subd(2*i-2) = mask*[t1(i-1); t1(i); t1(i+1); t1(i+2);];
 end
