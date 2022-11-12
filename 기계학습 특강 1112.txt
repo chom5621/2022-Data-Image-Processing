@@ -1,0 +1,82 @@
+인공지능: 인지노동의 자동화
+-머신러닝: 경험을->지식으로 전환
+-빅데이터: 경험
+
+Qs
+1 인공지능이란 무엇인가? 
+2 통계, 머신러닝, 딥러닝의 차이는 무엇인가?
+3 지도학습이란 무엇인가?
+4 딥러닝은 왜 성능이 좋은가?
+5 인공지능은 교육분야에서 어떻게 활용될 수 있을까?
+
+1
+지능을 필요로 했을 일을 기계가 하게끔 적용하는 연구
+지능: 다양한 환경에서 복잡한 의사결정 문제해결하는 능력
+
+-앨런 튜닝: 흉내게임을 잘 할 수 있는 상상적인 디지털 컴퓨터가 있는가?
+-튜링 테스트 (ex) CAPTCHA (-> 기능주의)
+
+진정한 이해인지? 흉내내는 것에 불과한지?
+
+-자연어처리
+-합성곱 신경망: 각각의 계층인 layer들로 학습
+
+Artificial Intelligence-A Modern Approach(Russell&Norvig, 2020, 4th ed)
+-Thinking/Acting Humanely/Rationally 4가지 인공지능 정의
+-Acting Rationally=>Optimization problems 최적화 문제
+		목적함수 f(x); argminf(x)의 경우 특별히 손실함수라 부름
+
+최소 오차 찾기
+-응용연구 관점에서 회귀: 종속변수에 대한 독립변수의 영향과 크기 방향 찾기
+-최적화 관점에서 회귀: 최소제곱법을 통한 모수값 찾기
+
+▶인간에 의해 행해진다면 지능을 필요로 했을 일을 기계로 하여금 하게 하려는 연구
+
+
+2
+★추론->지식->학습의 시대(딥러닝)
+하드코딩(사람이 일일이 코딩하기에 어려움)->기계학습의 필요성
+
+교육심리에서의 학습=머신러닝에서 컴퓨터의 학습
+
+-지도학습: 입출력 쌍(x,y)인 labeled data로부터 mapping하는 function 학습
+-비지도학습: 입력만 있는 unlabeled data를 군집화, 차원축소 통해 pattern 학습
+	    (ex) 마케팅 고객세분화, 유형화
+-강화학습: reward&punishment reinforcement policy 학습
+
+★일반화 when 귀납추론
+(ex) 지도학습의 데이터 분할, K-겹 교차검증, 정규화 등 for 일반화 확보
+
+★과대적합: 일반화 능력이 떨어질때
+why? 데이터에 존재하는 error, noise들을 너무 많이 포착해냄
+
+An Introduction to Statistical Learning (with Applications in R) 2nd edit, Gareth James...
+-통계적 추론: 제한적인 범위의 함수 고려/ 
+	     표본의 수 n이 무한대일 경우 asymptotic theory에 기반
+-통계적 학습: 보다 넓은 범위의 함수들의 집합으로부터 원하는 함수를 추정/ 
+	     유한한 훈련데이터로부터 원하는 함수를 추정
+
+classical machine learning은 함수 f를 학습한다면,
+딥러닝은 ★representative learning(즉 x)까지도 학습함
+
+
+3
+K-nearest Neighborhood: KNN (지도학습 분류 알고리즘)
+-k=3일때, majority에 따라 판정 (ex) 3개 中 1개가 노란색, 2개가 파란색이면 파란색으로 판정
+-k는 가장 가까운 이웃의 수, k가 작아질수록 분류를 위한 결정 경계면(decision boundary)이 복잡해짐
+
+
+4
+신경학적 관점에서의 학습
+뉴런들간의 연결성(Neurons that fire together, wire together)
+
+퍼셉트론 =artificial neural network
+인공 신경망
+
+딥러닝 (입력층-은닉층 여러개-출력층 구조가 마치 뉴런과 같다) 다중퍼셉트론
+단계적으로 simple->complex features 학습
+
+합성곱 신경망(Convolution Neural Network; CNN)
+feature extraction(즉 x)->classification(즉 f) 동시에 딥러닝
+
+자연어 처리 임베딩 Embedding =단어,문장을 벡터로 표현
