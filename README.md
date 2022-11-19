@@ -8,3 +8,5 @@ MATLAB
 
 * Subdivision - padding, smoothing, zooming
 
+* Fourier series
+
