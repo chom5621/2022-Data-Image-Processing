@@ -2,7 +2,7 @@
 
 MATLAB
 
-* Least squares method
+* Least squares
 
 * Polynomial interpolation - Vandermonde, Lagrange
 
@@ -10,3 +10,4 @@ MATLAB
 
 * Fourier series
 
+ 
