@@ -8,6 +8,4 @@ MATLAB
 
 * Subdivision - padding, smoothing, zooming
 
-* Fourier series
-
- 
+* Fourier series - Haar function
